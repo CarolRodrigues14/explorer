@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+  --fontetitulo:'Inter';
+  --fonteparagrafos: 'Open Sans', sans-serif;
+
+  --cordestaque: #FF9900;
+  --corparagrafos: #7D7987;
+}
+
+body{
+  font-family: var(--fonteparagrafos);
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+ 
+}
+
+#hero{
+  width: 592px;
+  margin: 0 auto 72px;
+}
+#hero img{
+  margin-bottom: 72px;
+}
+
+h1{
+font-family: var(--fontetitulo);
+font-weight: 400;
+font-size: 49px;
+line-height: 56px;
+
+margin-bottom: 32px;
+}
+h1 span{
+  font-weight: bold;
+}
+
+span, a {
+  color: var(--cordestaque);
+  text-decoration: none;
+}
+p{
+  color: var(--corparagrafos);
+}
+#border{
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+#footer a + a {
+  margin-left: 28px;
+}
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
