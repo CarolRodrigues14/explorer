@@ -1,2 +1,2 @@
-# explorer
+# Programa Explorer Rocketseat
  
